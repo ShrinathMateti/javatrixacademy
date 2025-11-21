@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import EnrollPopup from "./EnrollPopup";
+import EnrollPopup from "./EnrollPopUp.jsx";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
